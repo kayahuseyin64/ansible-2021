@@ -1,5 +1,5 @@
 --- #Connection Block
--name: install mariadb
+-name: install packages
   host: mariadb
   become: true
   become_method: sudo
