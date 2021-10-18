@@ -1,6 +1,6 @@
 --- #Connection Block
--name: install packages
-  host: ubuntu
+-name: install mariadb
+  host: mariadb
   become: true
   become_method: sudo
   user: ec2-user
