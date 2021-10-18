@@ -1,5 +1,5 @@
 --- #Connection Block
-- name: install package
+-name: install packages
   host: ubuntu
   become: true
   become_method: sudo
